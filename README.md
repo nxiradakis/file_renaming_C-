@@ -1,5 +1,5 @@
 # file_renaming_C++
-renaming all files from a folder to user specified new filenames
+Renaming all files from a folder to user specified new filenames (C++)
 
 Added all filenames in a string vector and accessed it through the 2nd for loop,
 because when making the renaming proccess through the first loop, the check if the new filename already exists could not be done cause the for loop accessed the files with this sequence: img_0, img_1, img_10, img_11...
