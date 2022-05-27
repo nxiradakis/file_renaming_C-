@@ -1,4 +1,4 @@
-# file_renaming_C++
+# File renaming C++
 Renaming all files from a folder to user specified new filenames (C++).
 
 Added all filenames in a string vector and accessed it through the 2nd for loop,  
