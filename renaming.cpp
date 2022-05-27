@@ -54,7 +54,7 @@ int main() {
             std::vector<string>::iterator it = std::find(filenames.begin(), filenames.end(), newFileName);  //searching if a file with the new name already exists in the names vector
             if (it != filenames.end()) {
                 std::cout << "name found in : " << std::endl;
-                int index = std::distance(filenames.begin(), it);  //position of found filename
+                int index = std::distance(filenames.begin(), it);  //position of found filename in the filenames vector
                 cout << index << endl;
             }
             else {
